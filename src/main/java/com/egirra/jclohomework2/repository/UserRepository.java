@@ -1,12 +1,14 @@
 package com.egirra.jclohomework2.repository;
 
 import com.egirra.jclohomework2.model.Authorities;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
+@Repository
 public class UserRepository {
     private final String NAME_USER = "user";
     private final String PASSWORD_USER = "1234";
